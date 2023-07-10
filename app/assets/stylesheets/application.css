@@ -15,34 +15,49 @@
  */
 
 *{
-    margin-left: 30px;
-    margin-right: 30px;
     padding: 0;
     box-sizing: border-box;
 }
 
 header{
     height: 90px;
+    margin-left: 0;
 }
 
 header .header-line{
     font-size: 32px;
     line-height: 90px;
-    margin-left: 0;
+    margin-left: 30px;
 }
 
 table{
-    width: 100%;
+    margin-left: 30px;
+    border-collapse: separate;
+    border-spacing: 10px;
 }
 
-.thead{
-    margin-bottom: 10px;
+h3{
+    margin-left: 30px;
 }
 
-.th{
-    margin-right: 10px;
-}
-.th:last-child{
-    margin-right: 0;
+.new-title{
+    position: relative;
 }
 
+.new-title h4{
+    position: absolute;
+    bottom: 0;
+}
+
+.new-body{
+    position: relative;
+}
+
+.new-body h4{
+    position: absolute;
+    bottom: 0;
+}
+
+form{
+    margin-left: 30px;
+}

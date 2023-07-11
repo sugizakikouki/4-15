@@ -34,8 +34,8 @@ header .header-line{
 table{
     
     border-collapse: separate;
-    border-spacing: 10px;
-    width: auto;
+    /*border-spacing: 10px;*/
+    /*width: auto;*/
 }
 
 td{
@@ -47,25 +47,23 @@ h3{
 }
 
 .new-title{
-    position: relative;
+    margin-left: 0;
 }
 
 .new-title h4{
-    position: absolute;
-    bottom: 0;
+    padding-bottom: 0;
 }
 
 .new-body{
-    position: relative;
+    margin-left: 0;
 }
 
 .new-body h4{
-    position: absolute;
-    bottom: 0;
+    padding-bottom: 0;
 }
 
 form{
-    
+    padding-left: 0;
 }
 
 .show-title{

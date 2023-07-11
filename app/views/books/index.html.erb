@@ -15,9 +15,9 @@
             <tr>
                 <td class="title-text"><%= book.title %></td>
                 <td class="body-text"><%= book.body %></td>
-                <td><%= link_to "Show", book_path(book.id) %></td>
-                <td><%= link_to "Edit", edit_book_path(book.id) %></td>
-                <td><%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure?" %></td>
+                <td aline="left"><%= link_to "Show", book_path(book.id) %></td>
+                <td aline="left"><%= link_to "Edit", edit_book_path(book.id) %></td>
+                <td aline="left"><%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure?" %></td>
             </tr>
             <% end %>
         </tbody>
